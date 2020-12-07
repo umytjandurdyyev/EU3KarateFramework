@@ -52,7 +52,7 @@ Feature: welcome to karate
 }
       """
       * print spartan
-  @wip
+
   Scenario: json array object
     * def student =
       """
