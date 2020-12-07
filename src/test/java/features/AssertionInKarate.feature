@@ -37,10 +37,10 @@ Feature: using match keyword
     * match employee.active == '#boolean'
     * match employee.last_name == '#notpresent'
 
-  @wip
+  @wip # Ctrl + Shift Up and Down
   Scenario: contains matching
     * def employees =
-    """
+  """
   [
     {
     "first_name":"TJ",
